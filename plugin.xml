@@ -22,16 +22,15 @@
     </platform>
 
     <!-- ios -->
-    <!--
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Device">
-                <param name="ios-package" value="CDVDevice"/>
+            <feature name="ShareSocial">
+                <param name="ios-package" value="ShareSocial" />
             </feature>
         </config-file>
 
-        <header-file src="src/ios/CDVDevice.h" />
-        <source-file src="src/ios/CDVDevice.m" />
+        <header-file src="src/ios/ShareSocial.h" />
+        <source-file src="src/ios/ShareSocial.m" />
+
     </platform>
-    -->
 </plugin>
